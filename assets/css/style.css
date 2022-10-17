@@ -646,13 +646,17 @@ border-top: 2px #f2bc2a;}
       text-align: center;
       font-size: 20px;
       color: #f2bc2a;
+      margin: auto;
     }
 
     .wpp{
       text-align: center;
       color: green;
-      margin-left: 30%;
+       margin: auto;
+      
       margin-bottom: 10px;
+      margin-left: 110px;
+      width: 290px;
     }
     .wpp:hover{
       color: white;
