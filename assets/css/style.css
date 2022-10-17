@@ -252,7 +252,7 @@ p {
           content: '';
           width: 8px;
           height: 4px;
-          background-color: #0067f4;
+          background-color: #123566;
           left: 50%;
           margin: 0 2px;
           bottom: 14px;
@@ -324,9 +324,9 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: -webkit-linear-gradient(rgba(5, 5, 5, 0), rgba(239, 254, 255, 0.048) 50%, rgba(0, 0, 0, 0.822) 68%, rgba(255, 255, 255, 0.12));
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.836), rgba(15, 15, 15, 0.322) 50%, rgba(0, 0, 0, 0.3) 68%, rgba(255, 255, 255, 0.12));
-    background: linear-gradient(rgba(232, 237, 255, 0), rgba(239, 254, 255, 0.103) 50%, rgba(254, 255, 244, 0.3) 68%, rgba(255, 255, 255, 0.12)); }
+    background: -webkit-linear-gradient(rgba(5, 5, 5, 0.295), rgba(239, 254, 255, 0.048) 50%, rgba(0, 0, 0, 0.966) 68%, rgba(14, 13, 13, 0.918));
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.192), rgba(15, 15, 15, 0.322) 50%, rgba(0, 0, 0, 0.877) 68%, rgba(19, 19, 19, 0.959));
+    background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(12, 12, 12, 0.301) 50%, rgb(15, 15, 15) 68%, rgba(0, 0, 0, 0.918)); }
   .header-hero .header-content {
     padding-top: 195px;
     position: relative;
@@ -340,7 +340,7 @@ p {
     .header-hero .header-content .header-title {
       font-size: 44px;
       line-height: 55px;
-      color: black;
+      color: white;
       font-weight: 600; }
       @media (max-width: 767px) {
         .header-hero .header-content .header-title {
@@ -636,7 +636,7 @@ border-top: 2px #f2bc2a;}
     5.CALL TO ACTION css 
 ===========================*/
 .call-to-action {
-  background-color: #0067f4;
+  background-color: #0e2f5e;
   position: relative; }
 
 .call-action-image {
@@ -808,10 +808,10 @@ p.form-message.error {
     resize: none; }
   .contact-form .single-form .main-btn {
     border-radius: 50px;
-    background-color: #0067f4;
+    background-color: #163c70;
     color: #fff; }
     .contact-form .single-form .main-btn:hover {
-      background-color: #005ad5; }
+      background-color: #183966; }
 
 .list-unstyled li {
   font-size: 13px;
