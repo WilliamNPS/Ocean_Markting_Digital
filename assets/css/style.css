@@ -142,7 +142,9 @@ p {
     2.HEADER css 
 ===========================*/
 /*===== NAVBAR ONE =====*/
-
+#bordondourado{
+  border-bottom: 2px solid #f2bc2a;
+}
 .navgition {
   padding: 10px 0;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -160,6 +162,7 @@ p {
   .navgition.sticky {
     position: fixed;
     background-color: black;
+    border-bottom: 2px solid #f2bc2a;
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
     -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
@@ -171,10 +174,12 @@ p {
   .navgition .navbar {
     position: relative;
     padding: 0; }
+    
     .navgition .navbar .navbar-toggler .toggler-icon {
       width: 30px;
       height: 2px;
-      background-color: #121212;
+      background-color: black;
+      border-bottom: 2px solid #f2bc2a;
       margin: 5px 0;
       display: block;
       position: relative;
@@ -217,7 +222,8 @@ p {
         top: 116%;
         left: 0;
         width: 100%;
-        background-color: black;
+        background-color:black;
+        border-bottom: 2px solid #f2bc2a;
         z-index: 8;
         padding: 10px 0;
         -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
@@ -340,16 +346,17 @@ p {
     .header-hero .header-content .header-title {
       font-size: 44px;
       line-height: 55px;
-      color: white;
+      color: #f2bc2a;
       font-weight: 600; }
       @media (max-width: 767px) {
         .header-hero .header-content .header-title {
           font-size: 30px;
-          line-height: 40px; } }
+          line-height: 40px;
+          color: #f2bc2a; } }
     .header-hero .header-content .text {
       font-size: 24px;
       line-height: 32px;
-      color: black;
+      color: #f2bc2a;
       margin-top: 16px; }
       @media (max-width: 767px) {
         .header-hero .header-content .text {
@@ -380,9 +387,9 @@ p {
               height: 100%;
               top: 0;
               left: 0;
-              background-image: -webkit-linear-gradient(left, #0067f4, #2bdbdc);
-              background-image: -o-linear-gradient(left, #0067f4, #2bdbdc);
-              background-image: linear-gradient(to right, #0067f4, #2bdbdc);
+              background-image: -webkit-linear-gradient(left, #0067f4, #2b3ddc);
+              background-image: -o-linear-gradient(left, #0067f4, #2b37dc);
+              background-image: linear-gradient(to right, #0067f4, #3d2bdc);
               background-position: right center;
               z-index: -1;
               -webkit-transition: all 0.3s ease-out 0s;
@@ -391,9 +398,9 @@ p {
               -o-transition: all 0.3s ease-out 0s;
               transition: all 0.3s ease-out 0s; }
             .header-hero .header-content .header-btn li a.main-btn.btn-one:hover::before {
-              background-image: -webkit-linear-gradient(right, #0067f4, #2bdbdc);
-              background-image: -o-linear-gradient(right, #0067f4, #2bdbdc);
-              background-image: linear-gradient(to left, #0067f4, #2bdbdc);
+              background-image: -webkit-linear-gradient(right, #0067f4, #2b54dc);
+              background-image: -o-linear-gradient(right, #0067f4, #2b37dc);
+              background-image: linear-gradient(to left, #0067f4, #2e2bdc);
               background-position: left center;
               -webkit-transition: all none ease-out 0s;
               -moz-transition: all none ease-out 0s;
@@ -412,6 +419,9 @@ p {
     .header-hero .header-shape img {
       width: 100%; }
 
+      #cordourado{
+        color: #f2bc2a;
+      }
 /*===========================
       3.SERVICES css 
 ===========================*/
@@ -632,6 +642,22 @@ border-top: 2px #f2bc2a;}
   .single-pricing.enterprise .pricing-flower img {
     width: 100%; }
 
+    .orcamento{
+      text-align: center;
+      font-size: 20px;
+      color: #f2bc2a;
+    }
+
+    .wpp{
+      text-align: center;
+      color: green;
+      margin-left: 30%;
+      margin-bottom: 10px;
+    }
+    .wpp:hover{
+      color: white;
+    }
+   
 /*===========================
     5.CALL TO ACTION css 
 ===========================*/
