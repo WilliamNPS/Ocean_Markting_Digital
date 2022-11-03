@@ -646,17 +646,13 @@ border-top: 2px #f2bc2a;}
       text-align: center;
       font-size: 20px;
       color: #f2bc2a;
-      margin: auto;
     }
 
     .wpp{
       text-align: center;
       color: green;
-       margin: auto;
-      
+      margin-left: 30%;
       margin-bottom: 10px;
-      margin-left: 110px;
-      width: 290px;
     }
     .wpp:hover{
       color: white;
@@ -858,11 +854,12 @@ p.form-message.error {
        7.FOOTER css 
 ===========================*/
 .footer-area {
-  background-color: black; }
+  background-color: black;
+ }
 
 .footer-widget {
-  padding-top: 90px;
-  padding-bottom: 120px; }
+  padding-top: 30px;
+  padding-bottom: 30px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-widget {
       padding-top: 70px;
@@ -928,6 +925,15 @@ p.form-message.error {
       .text-f{
         color:#005ad5;
       }
+      .lifot{
+        color: #f2bc2a;
+      }
+     .wppxt{
+      margin-bottom: 3px;
+     }
+     .wppbot{
+      margin-bottom: 12px;
+     }
 
 .footer-newsletter {
   margin-top: 32px; }
@@ -998,3 +1004,44 @@ p.form-message.error {
   .back-to-top:hover {
     background-color: #005ad5;
     color: #fff; }
+
+    /*Modal*/
+input {
+margin-top: 10px;
+margin-bottom: 10px ;}
+
+label {
+  display: inline;
+}
+
+.zz{
+  height: 50px;
+}
+
+.zzz{
+  height: 90px;
+}
+.modal-content{
+background-color: rgb(214, 212, 212);
+}
+
+
+.modal-title{
+  color: black;
+}
+
+.modal{
+  background-color: #121212bd;
+}
+
+.sair {
+  background-color: red;
+}
+
+.sair:hover {
+  background-color: rgb(214, 18, 18);
+}
+
+#trabalheconosco{
+ color: #005ad5;
+}
